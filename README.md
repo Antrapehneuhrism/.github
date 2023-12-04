@@ -22,7 +22,6 @@ Back-End Setup
 To set up the back-end, navigate to the backend directory and run:
 
 ```bash
-Copy code
 cd backend
 ./mvnw spring-boot:run
 ```
@@ -31,7 +30,6 @@ Ensure you have PostgreSQL or MySQL installed and running. Update the applicatio
 
 Project Structure
 ```bash
-Copy code
 project-name/
 │
 ├── frontend/     # Front-end codebase (Next.js)
@@ -51,12 +49,10 @@ Run tests for both front-end and back-end using the following commands:
 
 Front-End Tests:
 ```bash
-Copy code
 npm test
 ```
 Back-End Tests:
 ```bash
-Copy code
 ./mvnw test
 ```
 Continuous Integration and Deployment
